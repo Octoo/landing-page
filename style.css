@@ -4,11 +4,12 @@ body {
   margin: 0;
 }
 
-.container1 {
+.header {
   background-color: #1f2937;
   border: none;
   padding: 0px 15% 10%;
 }
+
 
 .top {
   display: flex;
@@ -35,13 +36,15 @@ a {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   color: #e5e7eb;
+  font-weight: 200;
 }
 
-.intro {
+.container1 {
   display: flex;
-  flex: 1;
-  padding-top: 35px;
   gap: 40px;
+  background-color: #1F2937;justify-content: center;
+  align-items: center;
+  padding: 100px;
 }
 .image1 {
   width: 300px;
@@ -50,14 +53,15 @@ a {
 }
 
 .left-block {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  align-items: stretch;
+    flex: 1;
+    padding: 0px 50px;
 }
 .right-block {
-  align-items: baseline;
-  padding-top: 40px;
+    flex: 1;
+    padding: 0px 50px;
+    background-color: gray;
+    padding: 87px;
+    text-align: center;
 }
 h2 {
   font-size: 48px;
@@ -65,6 +69,14 @@ h2 {
   color: #f9faf8;
   font-family: "Robot", sans-serif;
   margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+h3{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
 }
 
 button {
@@ -81,23 +93,25 @@ p {
 }
 
 .container2 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-  flex-direction: row;
-
-  gap: 20px;
-  padding: 60px 15% 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 5px;
 
 }
 
-/*
-  img {
-    width: 100px;
-    height: 100px;
-  }
-  */
+.carte{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    gap:5px
+
+}
 
 
 .box {
@@ -135,7 +149,7 @@ p {
 .author-wrap {
   display: flex;
   align-items: flex-end;
-  justify-content: end;
+  
 }
 
 .author {
@@ -143,21 +157,13 @@ p {
   margin-right: 50px;
 }
 .container4 {
-  min-height: 300px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.container5 {
-  width: 300px;
-  height: 100px;
-  background-color: #3882f6;
-  border-radius: 10px;
-  padding: 5px 100px;
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    margin: 80px 200px;
+    padding: 15px 50px ;
+    background-color:#3882F6;
+    justify-content: space-between;
+    border-radius: 8px;
+    
 }
 
 .action {
@@ -166,23 +172,18 @@ p {
   font-weight: bold;
   font-family: "Robot", sans-serif;
 }
-.signup {
-  font-size: 14px;
-  color: #e5e7eb;
-  font-family: "Robot", sans-serif;
-  margin-top: 0;
-}
-
-.bot-cont {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-}
 
 .signup-button {
   min-width: 100px;
   border-color: #e5e7eb;
+  flex: 0;
+  max-height: 200px;
+}
+
+.button-position{
+    display: flex;
+    align-items: center;
+    
 }
 
 .footer {
